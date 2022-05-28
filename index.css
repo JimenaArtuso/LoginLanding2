@@ -1,0 +1,93 @@
+body {
+    background-position: center;
+    background-image: url(./Imágenes/fondo\ acuarela\ lila.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rec-login {
+    height: 50%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 237, 240);
+    border-radius: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contraseña {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+input {
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: black;
+}
+
+input:hover {
+    background-color: white;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(139, 176, 187);
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    width: 40%;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: beige;
+}
+
+a {
+    display: flex;
+    color: black;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+a:hover {
+    color: grey;
+}
